@@ -10,16 +10,16 @@ readme = "README.md"
 [tool.poetry.dependencies]
 python = "^3.8"
 # assuming pandas is required!
-pandas = "^1.2"
+pandas = "^2"
 
 # Packages for developers for creating documentation
-plotly = "^5.10.0"
-nemosis = "^3.1.0"
-numpy = "^1.23.3"
-dash = "^2.6.1"
-openpyxl = "^3.0.10"
-supabase = "^0.7.1"
-gunicorn = "^20.1.0"
+plotly = "^5"
+nemosis = "^3"
+numpy = "^1"
+dash = "^2"
+openpyxl = "^3"
+supabase = "^0.7"
+gunicorn = "^20"
 psycopg = {extras = ["binary"], version = "^3.1.4"}
 dash-bootstrap-components = "^1.2.1"
 dash-loading-spinners = "^1.0.0"
@@ -29,8 +29,8 @@ optional = true
 
 [tool.poetry.group.docs.dependencies]
 # MyST parser for Sphinx documentation with furo theme
-Sphinx = "^5.0.2"
-furo = "^2022.6.21"
+Sphinx = "^5"
+furo = "^2022"
 
 # Packages for developers for linting/autoformatting
 myst-parser = "^0.18.1"
